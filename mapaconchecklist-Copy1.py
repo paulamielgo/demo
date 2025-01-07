@@ -43,7 +43,7 @@ def create_figure(selected_universities):
 
     # Configuración del mapa
     fig.update_layout(
-        mapbox_style="open-street-map",  # Usar OpenStreetMap como estilo base
+        mapbox_style="carto-positron",  # Usar OpenStreetMap como estilo base
         title="Estudiantes y Sedes de Universidades",
         autosize=True,
         showlegend=True,
