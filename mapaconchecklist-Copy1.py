@@ -14,6 +14,8 @@ matricula = pd.read_csv("https://raw.githubusercontent.com/paulamielgo/Univaciad
 # Crear la aplicación Dash
 app = Dash(__name__)
 
+server = app.server
+
 # Crear el gráfico de mapa con MapLibre
 def create_figure(selected_universities):
     # Filtrar los datos según las universidades seleccionadas
