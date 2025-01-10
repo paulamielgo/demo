@@ -151,9 +151,10 @@ comunidades = [feature["properties"]["name"] for feature in comunidades_geojson[
 
 
 # Crear la aplicación Dash
-app = Dash(__name__)
+#app = Dash(__name__)
 #CAMBIAR A ESTA
-#app = Dash(__name__, suppress_callback_exceptions=True)
+app = Dash(__name__, suppress_callback_exceptions=True)
+server = app.server
 
 #PESTAÑAS
 #PM este heigth es el de la pestaña izquierda (porque solo es una)
