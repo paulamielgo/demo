@@ -3,3 +3,4 @@ plotly==5.10.0         # Para gráficos interactivos
 pandas==1.5.3          # Para manejar datos en formato CSV
 gunicorn==20.1.0       # Servidor WSGI para ejecutar la app en producción
 numpy==1.23.5
+requests
