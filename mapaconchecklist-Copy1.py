@@ -119,8 +119,7 @@ def create_pie_chart(selected_university, selected_course):
             'font': {
                 'family': 'Arial, sans-serif',
                 'size': 18,  # Tamaño de fuente en píxeles
-                'color': '#333',  # Color del texto
-                'weight': 'bold'
+                'color': '#333'  # Color del texto
             }
         }
     )
