@@ -347,6 +347,7 @@ def create_top_5_table(top_5_df):
 
 # Crear la aplicación Dash
 app = Dash(__name__)
+server = app.server
 #CAMBIAR A ESTA
 #app = Dash(__name__, suppress_callback_exceptions=True)
 
